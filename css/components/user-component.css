@@ -21,10 +21,29 @@
   font-size: 22px;
 }
 
+.user-component__title--not-bold {
+  font-weight: 400;
+}
+
 .user-component__subtitle {
+  display: flex;
+  align-items: center;
   margin-top: 8px;
   font-size: 17px;
   color: rgba(0, 0, 0, 0.5);
+}
+
+.user-component__subtitle span {
+  font-size: 5px;
+  margin-left: 5px;
+  width: 13px;
+  height: 13px;
+  border: 2px solid #ff978b;
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #ff978b;
 }
 
 .user-component__avatar--xl {
@@ -36,10 +55,6 @@
   width: 60px;
   height: 60px;
   border-radius: 25px;
-}
-
-.user-component__title--not-bold {
-  font-weight: 400;
 }
 
 .friends-screen__channel {
